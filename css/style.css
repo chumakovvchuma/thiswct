@@ -5,6 +5,23 @@
  *
  * Made By MaterializeCSS.com
  */
+.collection-item:hover {
+background: teal;
+color: white;
+}
+
+ .center {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.center > span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
 
 body {
   background:url("../img/background.png");

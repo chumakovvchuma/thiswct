@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
   <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -37,8 +38,26 @@
 
 </div>
 </div>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>WCT</h4>
+      <p> - это прогрессивная техническая поддержка, целью которой является предоставление качественной обратной связи пользователям.
+        Наша слаженная команда включает в себя более 20 специалистов и на сегодняшний день на нашем счету более 40 активно развивающихся проектов.
+        
+        В нашей команде построена четкая структура взаимодействия двух линий поддержки, которая обеспечивает быстродействие в решении сложных задач и способствует интенсивному развитию электронных систем.
+        
+        Наши специалисты отлично подготовлены для проведения качественной поддержки Ваших систем, используют актуальные знания в области технической поддержки, применяют современные и хорошо зарекомендовавшие себя технологии для предоставления информации и связи с пользователями.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+
 <div class="logo"></div>
-<a class="link-to-two" href="#twoPage">
+<a class="link-to-two modal-trigger" data-target="modal1" href="#modal1">
   <div class="menu-one">
   <div class="icon-one"></div>
   <div class="header-one">
@@ -80,6 +99,9 @@
     </div>
 
 
+
+
+
 <div class="show-on-small hide-on-med-and-up">  
   <div class="header-img-m"></div>
   
@@ -87,7 +109,7 @@
   <div class="logo-m"></div>
   <div class="row">
     <div class="col s4">
-    <a class="link-two-m" href="#twoPage"><div class="menu1"></div></a>
+    <a class="link-two-m" data-target="modal1" href="#modal1"><div class="menu1"></div></a>
     <a class="link-three-m" href="#threePage"><div class="menu2"></div></a>
     <a class="link-four-m" href="#fourPage"><div class="menu3"></div></a>
   </div>
@@ -206,12 +228,54 @@
   </div>
   
   </div>
-  <!-- <div class="section scrollLink" data-section-name="fourPage" id="main-content" style="width: 100vw;height: 100vh;position:relative;">
+  <div class="section scrollLink" data-section-name="fourPage" id="main-content" style="width: 100vw;height: 100vh;position:relative;">
     <div class="header-img"></div>
     <div class="footer-img"></div>
 
+    <div class="container" style="margin-top: 5%;">
+      <div class="center">
+        <span>
 
-  </div> -->
+          <ul class="collection">
+            <li class="collection-item avatar">
+              <i class="material-icons circle blue">call</i>
+              <span class="title">Title</span>
+              <p>First Line <br>
+                 Second Line
+              </p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <i class="material-icons circle yellow">folder</i>
+              <span class="title">Title</span>
+              <p>First Line <br>
+                 Second Line
+              </p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <i class="material-icons circle green">insert_chart</i>
+              <span class="title">Title</span>
+              <p>First Line <br>
+                 Second Line
+              </p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <i class="material-icons circle red">play_arrow</i>
+              <span class="title">Title</span>
+              <p>First Line <br>
+                 Second Line
+              </p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+          </ul>
+        </span>
+      </div>
+    </div>
+
+
+  </div>
   </div>
   
 <!-- </div>
