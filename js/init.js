@@ -20,7 +20,7 @@
       scrollSpeed: 1800,
       offset : 0,
       scrollbars: false,
-      standardScrollElements: "",
+      standardScrollElements: "#modalm",
       setHeights: true,
       overflowScroll: true,
       updateHash: true,
