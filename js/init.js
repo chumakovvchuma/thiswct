@@ -4,8 +4,11 @@
       numVisible: 9,
       padding: 200
     });
-    $('.modal').modal();
 
+
+
+
+    $('.modal').modal();
 
     
 
