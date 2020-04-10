@@ -26,11 +26,9 @@
       updateHash: true,
       touchScroll:true,
       before:function(i,panels) {
-
+        
         var ref = panels[i].attr("data-section-name");
-  
         $(".pagination .active").removeClass("active");
-  
         $(".pagination").find("a[href=\"#" + ref + "\"]").addClass("active");
       },       
       after:function() {},

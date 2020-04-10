@@ -5,6 +5,47 @@
  *
  * Made By MaterializeCSS.com
  */
+ #logo {
+
+  background: url("../img/logologo.png");
+
+}
+ .ml {
+  height: 280px;
+  width: 290px;
+ }
+ .ml:hover {
+  height: 264px;
+    width: 290px;
+   background: url("../img/reclh.png");
+ }
+ .mc {
+  height: 280px;
+  width: 290px;
+ }
+ .mc:hover {
+  height: 264px;
+    width: 290px;
+   background: url("../img/recch.png");
+ }
+
+ .mr {
+  height: 280px;
+  width: 290px;
+ }
+ .mr:hover {
+  height: 264px;
+    width: 290px;
+   background: url("../img/recrh.png");
+ }
+
+ .center-flex {
+  display: flex;
+  justify-content: center; /* Horizontal Centering */
+  align-items: center; 
+ }
+    /* Vertical Centering */
+
 .collection-item:hover {
 background: teal;
 color: white;
@@ -20,6 +61,19 @@ color: white;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+}
+
+.center-bottom {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+
+.center-bottom > div {
+  display: table-cell;
+  text-align: center;
+  
 }
 
 
@@ -62,6 +116,11 @@ background-size: cover;
   width: 100%
 }
 
+.menu-background {
+  width: 272px;
+  height: 264px;
+}
+
 
 
 
@@ -93,34 +152,38 @@ background-size: cover;
   left: calc(25vw - 14vw);
   
 }
-.header-one {
-  left: calc(50% - 106px/2);
+
+.head-card {
   width: 106px;
-height: 18px;
-font-family: Russo One;
-font-style: normal;
-font-weight: normal;
-font-size: 26px;
-line-height: 70.5%;
-text-align: center;
-color: #005C69;
-position: absolute;
-top: 50%;
+  height: 18px;
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 70.5%;
+  text-align: center;
+  color: #005C69 !important;
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 106px/2) !important;
+  padding:0 !important;
 }
-.text-one {
-  left: calc(50% - 190px/2);
-  width: 190px;
-height: 76px;
-  font-family: PT Sans Narrow;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 70.5%;
-position: absolute;
-text-align: center;
-color: #FAFEFF;
-top: 60%;
-}
+
+
+  .text-one {
+    left: calc(50% - 190px/2);
+    width: 190px;
+  height: 76px;
+    font-family: PT Sans Narrow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 70.5%;
+  position: absolute;
+  text-align: center;
+  color: #FAFEFF;
+  top: 60%;
+  }
 
 
 
@@ -258,14 +321,14 @@ left: calc(50vw - 272px/2);
 top: 11%;
 } */
 
-.logo {
-  background: url("../img/llll.png") no-repeat;
-  position: absolute;
-  width: 648px;
-height: 308px;
-left: calc(50vw - 308px/2);
-top: 11%;
-}
+
+  svg {
+    height: 150px;
+    /* fill: #31756E;
+    stroke: black;
+    transform: rotate(45deg); */
+  }
+
 .logo-text {
   left: calc(25vw - 15vw);
   top: 15%;
